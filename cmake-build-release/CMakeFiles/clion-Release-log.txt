@@ -1,0 +1,17 @@
+"D:\CLion 2023.2.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Release "-DCMAKE_MAKE_PROGRAM=D:/CLion 2023.2.1/bin/ninja/win/x64/ninja.exe" cmake -DCMAKE_TOOLCHAIN_FILE=C:/Users/mzitr/vcpkg/scripts/buildsystems/vcpkg.cmake -G Ninja -S "C:\Users\mzitr\OneDrive\Рабочий стол\bank_app" -B "C:\Users\mzitr\OneDrive\Рабочий стол\bank_app\cmake-build-release"
+CMake Warning:
+  Ignoring extra path from command line:
+
+   "C:/Users/mzitr/OneDrive/Рабочий стол/bank_app/cmake-build-release/cmake"
+
+
+-- The C compiler identification is GNU 13.1.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: D:/CLion 2023.2.1/bin/mingw/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Found ZLIB: optimized;C:/Users/mzitr/vcpkg/installed/x64-windows/lib/zlib.lib;debug;C:/Users/mzitr/vcpkg/installed/x64-windows/debug/lib/zlibd.lib (found suitable version "1.3.1", minimum required is "1")  
+-- Configuring done (2.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: C:/Users/mzitr/OneDrive/Рабочий стол/bank_app/cmake-build-release
