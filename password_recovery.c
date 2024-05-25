@@ -1,7 +1,8 @@
 //
+//
 // Created by mzitr on 21.05.2024.
 //
-
+//
 #include "functions.h"
 
 #define FROM    "<bank.application.pract@mail.ru>"
