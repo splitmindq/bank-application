@@ -304,8 +304,14 @@ void read_user(User* users, unsigned int* users_count) {
 
     is_actual = 1;
     while (is_actual) {
-        puts("\t -> Введите пароль для своего аккаунта <-");
-        scanf("%99s", password); // Ensuring we do not overflow the buffer
+
+
+        puts("\t -> Введите пароль для своего аккаунта <-\n");
+        puts("\nЗаглавные буквы обязательны.");
+        puts("\nИспользование хотя бы одного символа обязательно.");
+        puts("\nДлина пароля не должна быть меньше 8 символов.\n");
+
+        scanf("%99s", password);
         if (check_password(password)) {
             struct sha256 sha;
             char hash_hex[65];
@@ -557,6 +563,7 @@ void admin_panel(User* user,unsigned int *users_count,int index) {
                     }
                     break;
                 case 2:
+                    system("cls");
                     change_currency(user,index);
                     break;
 
@@ -929,6 +936,7 @@ void user_panel(User *user, unsigned int *users_count, int index) {
                     }
                     break;
                 case 2:
+                    system("cls");
                     change_currency(user, index);
                     break;
 
@@ -1390,6 +1398,8 @@ void change_profile(User *user, int index) {
                     SetConsoleTextAttribute(handle, originalAttributes.wAttributes);
                 }
 }
+
+
 
 void manage() {
     system("cls");

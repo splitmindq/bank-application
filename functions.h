@@ -42,7 +42,9 @@ User* delete_user_from_index(User *users, unsigned int *users_count, unsigned in
 
 //----- panels
 void login_panel(User *users,unsigned int*users_count);//login panel
+void personal_info(User *user,int index);
 void user_panel(User *user, unsigned int *users_count, int index);//user panel
+void admin_info(User* user,int index);
 void admin_panel(User* users,unsigned int *users_count,int index);//admin panel
 
 
@@ -54,6 +56,8 @@ int calculate_age(const char* birthday);//access by age
 int is_valid_date(int day, int month, int year);
 void generate_password(char *password);
 void change_profile(User *user, int index);
+void generate_code(char *code);
+void check_connection();
 
 
 //------ print

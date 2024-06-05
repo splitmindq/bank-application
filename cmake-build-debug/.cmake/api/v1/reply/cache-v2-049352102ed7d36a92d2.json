@@ -1182,6 +1182,50 @@
 			"value" : "[optimized;C:/Users/mzitr/vcpkg/installed/x64-windows/lib/zlib.lib;debug;C:/Users/mzitr/vcpkg/installed/x64-windows/debug/lib/zlibd.lib][C:/Users/mzitr/vcpkg/installed/x64-windows/include][c ][v1.3.1(1)]"
 		},
 		{
+			"name" : "Iconv_INCLUDE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "iconv include directory"
+				}
+			],
+			"type" : "PATH",
+			"value" : "Iconv_INCLUDE_DIR-NOTFOUND"
+		},
+		{
+			"name" : "Iconv_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "iconv library (if not in the C library)"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "Iconv_LIBRARY-NOTFOUND"
+		},
+		{
+			"name" : "LIBCONV_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for LIBCONV."
+				}
+			],
+			"type" : "PATH",
+			"value" : "LIBCONV_DIR-NOTFOUND"
+		},
+		{
 			"name" : "VCPKG_APPLOCAL_DEPS",
 			"properties" : 
 			[
@@ -1508,6 +1552,18 @@
 			],
 			"type" : "STATIC",
 			"value" : "C:/Users/mzitr/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/bank_app"
+		},
+		{
+			"name" : "libconv_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for libconv."
+				}
+			],
+			"type" : "PATH",
+			"value" : "libconv_DIR-NOTFOUND"
 		}
 	],
 	"kind" : "cache",

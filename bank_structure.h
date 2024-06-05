@@ -7,9 +7,9 @@
 
 
 typedef struct {
-    char card_number[16];
-    float balance;
-    char currency[3];
+    char card_number[16]; // Номер счёта
+    float balance; // Баланс
+    char currency[3]; // Текущая валюта(USD, BYN, JPY, ...)
 }card_info;
 
 typedef struct {
@@ -21,10 +21,10 @@ typedef struct {
 
 
 typedef struct {
-    char* fullname;
-    char* birthday;
-    Credentials user_data;
-    card_info card;
+    char* fullname; // ФИО
+    char* birthday; // Дата рождения
+    Credentials user_data; // Данные авторизации
+    card_info card; // Данные счёта
 
 }User;
 
